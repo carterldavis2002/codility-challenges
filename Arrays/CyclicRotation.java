@@ -1,6 +1,6 @@
 public class CyclicRotation {
     public static void main(String[] args) {
-        int[] arr = {};
+        int[] arr = {1};
         rotateArray(arr, 3);
         for(int i : arr) System.out.print(i + ", ");
     }
